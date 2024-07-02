@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.logo img{
+    height: 25px;
+    filter: brightness(0) invert(1) !important;
+}
+.box{
+    height: 510px;
+    width: 300px;
+    border: solid gray;
+    border-radius: 15px;
+margin-top: 100px;
+margin-bottom: 30px;
+    
+}
+.boxess{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 13!important;
+}
+.boxs1{
+    height: 50px;
+    width: 200px;
+    
+    order: 1;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 15px;
+    font-size: 15px;
+    margin-right: -90px;
+}
+.boxs2{
+    height: 50px;
+    width: 200px;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 28px;
+    font-family: sans-serif;
+    margin-left: -90px;
+}
+.boxs3{
+    height:50px;
+    width: 200px;
+    
+    order: -1;
+    flex-grow: 1;
+}
+li{
+    list-style-type: none;
+}
+.boxs3 img{
+    filter: brightness(0) invert(1) !important;
+    height: 30px;
+   margin-top: 10px;
+   margin-left: 55px;
+}
+
+
+.information{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    gap:10px
+}
+.footer{
+    height:600px;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    font-family: sans-serif;
+
+}
+.information{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.Amoled{
+    height: 300px;
+    width: 300px;
+    margin-left: -70px;
+}
+.Best{
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+}
+.Luxury{
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+}
+.Outdoor{
+    height: 300px;
+    width: 300px;
+}
+.Round{
+    height: 300px;
+    width: 300px;
+    margin-right: 50px;
+}
+.navbar2{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 10px;
+    height:130px;
+    background-color: black;
+    color: white;
+}
+.box333{
+    display: flex;
+   margin-top: -60px;
+   margin-right: 30px ;
+    justify-content: end;
+}
+.footer2{
+    height:600px;
+    width: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+.Follow{
+    height: 300px;
+    margin-left: 70px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+
+}
+.Follow{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.QUICK{
+    height: 300px;
+    width: 300px;
+}
+.SUPPORT{
+    height: 300px;
+    width: 300px;
+}
+.POLICY{
+    height: 300px;
+    width: 300px;
+}
+.information2{
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.pictures{
+    display: flex;
+    height: 300px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    justify-content: space-between;
+  }
+
+  .carts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 505px;
+    width: 265px;
+    border: solid gray;
+    border-radius: 15px;
+    
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -505px;
+    margin-left: 275px;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -510px;
+    margin-left: 550px;
+}
+.box4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -510px;
+    margin-left: 825px;
+    
+}
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -510px;
+    margin-left: 1100px;
+}
+.Watch{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+}
+.Watch2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -510px;
+    margin-left: 275px;
+}
+.Watch3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 550px;           
+}
+.Watch4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 826px;           
+}
+.Watch5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 1103px;           
+}
+.navbar3{
+    height: 90px;
+    width: 80%;
+    border: black solid;
+color: black;
+font: 12px ;
+font-family: Sans-serif;
+margin-left: 170px;
+margin-top: 90px;
+position: relative;
+}
+.text1{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 30px;
+
+}
+.text2{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 280px;
+}
+.text3{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 560px;
+
+}
+.text4{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 800px;
+}
+.font1{
+    position: absolute;
+    margin-top: 37px;
+    margin-left: 105px;
+
+}
+.font2{
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 350px;
+}
+.font3{
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 630px;
+
+}
+.font4{
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 880px;
+}
+
+.Watches1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+}
+.Watches2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;
+    margin-top: -510px;
+    margin-left: 275px;
+}
+.Watches3{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 550px;           
+}
+.Watches4{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 826px;           
+}
+.Watches5{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    width: 270px;
+    border: solid gray;
+    border-radius: 15px;  
+    margin-top: -510px;
+    margin-left: 1103px;           
+}
