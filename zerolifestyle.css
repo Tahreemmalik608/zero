@@ -125,7 +125,7 @@ li{
     margin-top: 20px;
     flex-direction: column;
     gap: 10px;
-    height:130px;
+    height:150px;
     background-color: black;
     color: white;
 }
@@ -136,7 +136,7 @@ li{
     justify-content: end;
 }
 .footer2{
-    height:600px;
+    height:300px;
     width: 100%;
     background-color: #f0f0f0;
     display: flex;
@@ -146,6 +146,7 @@ li{
     font-family: sans-serif;
 }
 .Follow{
+    margin-top: 40px;
     height: 300px;
     margin-left: 70px;
     width: 300px;
@@ -154,7 +155,13 @@ li{
     gap:10px
 
 }
+.socialicons{
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
 .Follow{
+    
     margin-bottom: 30px;
     font-weight: bold;
 }
@@ -195,8 +202,8 @@ li{
     display: flex;
     flex-wrap: wrap;
     height: 505px;
-    width: 265px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray ;
     border-radius: 15px;
     
 }
@@ -204,90 +211,89 @@ li{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray ;
     border-radius: 15px;
     margin-top: -505px;
-    margin-left: 275px;
+    margin-left: 271px;
 }
 .box3{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray ;
     border-radius: 15px;
     margin-top: -510px;
-    margin-left: 550px;
+    margin-left: 542px;
 }
 .box4{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray ;
     border-radius: 15px;
     margin-top: -510px;
-    margin-left: 825px;
-    
+    margin-left: 815px;
 }
 .box5{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray ;
     border-radius: 15px;
     margin-top: -510px;
-    margin-left: 1100px;
+    margin-left: 1088px;
 }
 .Watch{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;
 }
 .Watch2{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray;
     border-radius: 15px;
     margin-top: -510px;
-    margin-left: 275px;
+    margin-left: 271px;
 }
 .Watch3{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 550px;           
+    margin-left: 542px;           
 }
 .Watch4{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 826px;           
+    margin-left: 815px;           
 }
 .Watch5{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 1103px;           
+    margin-left: 1088px;           
 }
 .navbar3{
     height: 90px;
@@ -297,7 +303,7 @@ color: black;
 font: 12px ;
 font-family: Sans-serif;
 margin-left: 170px;
-margin-top: 90px;
+margin-top: 60px;
 position: relative;
 }
 .text1{
@@ -306,16 +312,28 @@ position: relative;
     margin-left: 30px;
 
 }
+.text1 img{
+    filter: brightness(0);
+}
 .text2{
     position: absolute;
     margin-top: 35px;
     margin-left: 280px;
+}
+.text2 img{
+    filter: brightness(0);
 }
 .text3{
     position: absolute;
     margin-top: 30px;
     margin-left: 560px;
 
+}
+.text3 img{
+    filter: brightness(0);
+}
+.text4 img{
+    filter: brightness(0);
 }
 .text4{
     position: absolute;
@@ -349,47 +367,47 @@ position: relative;
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;
 }
 .Watches2{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;
     margin-top: -510px;
-    margin-left: 275px;
+    margin-left: 271px;
 }
 .Watches3{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 550px;           
+    margin-left: 542px;           
 }
 .Watches4{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border: 2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 826px;           
+    margin-left: 815px;           
 }
 .Watches5{
     display: flex;
     flex-wrap: wrap;
     height: 510px;
-    width: 270px;
-    border: solid gray;
+    width: 259px;
+    border:  2px solid gray;
     border-radius: 15px;  
     margin-top: -510px;
-    margin-left: 1103px;           
+    margin-left: 1088px;           
 }
